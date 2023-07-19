@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "6401d73226a19d89dbca6363"
+  },
+  "voter_id": "",
+  "candidate_code": "",
+  "state_code": "",
+  "constitution_code": "",
+  "election_type_code": "",
+  "created_datetime": "",
+  "updated_date": "",
+  "status": 1
+}]

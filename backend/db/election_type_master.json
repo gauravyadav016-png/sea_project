@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6401c8c226a19d89dbca6346"
+  },
+  "election_type_code": "E001",
+  "election_type_name": "Parliamentary Elections",
+  "delete_status": 0,
+  "created_date": "",
+  "updated_date": "",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6401cb2726a19d89dbca6348"
+  },
+  "election_type_code": "E002",
+  "election_type_name": "State Elections",
+  "delete_status": 0,
+  "created_date": "",
+  "updated_date": "",
+  "__v": 0
+}]

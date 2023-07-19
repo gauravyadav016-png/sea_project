@@ -1,0 +1,27 @@
+[{
+  "_id": {
+    "$oid": "6401d55d26a19d89dbca6357"
+  },
+  "candidate_code": "CAN001",
+  "candidate_name": "Karthik P",
+  "symbol": "Laptop",
+  "party name": "AES",
+  "manifisto": "sample",
+  "state_code": "S001",
+  "delete_status": 0,
+  "created_date": "",
+  "updated_date": ""
+},{
+  "_id": {
+    "$oid": "6401d61b26a19d89dbca635a"
+  },
+  "candidate_code": "CAN002",
+  "candidate_name": "Rajat",
+  "symbol": "Mobile",
+  "party name": "ABC",
+  "manifisto": "sample",
+  "state_code": "S001",
+  "delete_status": 0,
+  "created_date": "",
+  "updated_date": ""
+}]

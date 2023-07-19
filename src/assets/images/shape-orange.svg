@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="453" height="334" viewBox="0 0 453 334">
+  <defs>
+    <clipPath id="clip-Web_1920_1">
+      <rect width="453" height="334"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
+    <rect width="453" height="334" fill="rgba(255,255,255,0)"/>
+    <g id="Path_1" data-name="Path 1" transform="translate(448 330) rotate(180)" fill="rgba(255,255,255,0)">
+      <path d="M 418.6277160644531 313 L 28.3723030090332 313 L 223.5000152587891 26.6380786895752 L 418.6277160644531 313 Z" stroke="none"/>
+      <path d="M 223.5000152587891 53.2762451171875 L 56.74465942382812 298 L 390.25537109375 298 L 223.5000152587891 53.2762451171875 M 223.5000152587891 0 L 447 328 L 3.0517578125e-05 328 L 223.5000152587891 0 Z" stroke="none" fill="#ef5e1f"/>
+    </g>
+  </g>
+</svg>

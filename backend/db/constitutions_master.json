@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6401cb4626a19d89dbca634a"
+  },
+  "state_code": "S001",
+  "constitution_code": "C001",
+  "constitution_name": "Coimbatore North",
+  "delete_status": 0,
+  "created_date": "",
+  "updated_date": ""
+}]

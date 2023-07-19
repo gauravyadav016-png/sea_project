@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6401d64226a19d89dbca635c"
+  },
+  "candidate_code": "CAN001",
+  "state_code": "S001",
+  "constitution_code": "C001",
+  "election_type_code": "E002",
+  "delete_status": 0,
+  "created_date": "",
+  "updated_date  ": ""
+},{
+  "_id": {
+    "$oid": "6401d6ad26a19d89dbca635f"
+  },
+  "candidate_code": "CAN002",
+  "state_code": "S001",
+  "constitution_code": "C001",
+  "election_type_code": "E002",
+  "delete_status": 0,
+  "created_date": "",
+  "updated_date  ": ""
+}]

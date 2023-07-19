@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="AES"
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+    <title>Sailor Onboarding</title>
+    
+    <!--load all Font Awesome styles -->
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/ionicons.min.css" />
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/font-awesome.min.css" />
+
+    <!-- Font styles -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">  -->
+    <!-- font-family: 'Mitr', sans-serif; -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet"> <!--font-family: 'Source Sans Pro', sans-serif;-->
+
+    <!--====== CSS Here ======-->
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/bootstrap.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/nice-select.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/swiper.min.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/animate.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/odometer.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/custom-style.css">
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/style.css">
+
+    <!--====== Responsive CSS Here ======-->
+    <link rel="stylesheet" href="%PUBLIC_URL%/css/media.css" />
+
+
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+       <!-- cursor point script starts -->
+       <!-- <div class="cursor"></div>
+       <div class="cursor2"></div> -->
+       <!-- cursor point script ends -->
+
+       <!-- <div class="preloader-activate preloader-active open_tm_preloader">
+        <div class="preloader-area-wrap">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="loader">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+<!-- preloader end -->
+
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+
+    <!--========= JS Here =========-->
+
+    <script src="%PUBLIC_URL%/js/jquery-2.2.4.min.js"></script>
+    <script src="%PUBLIC_URL%/js/bootstrap.min.js"></script>
+    <script src="%PUBLIC_URL%/js/parallax.min.js"></script>
+    <script src="%PUBLIC_URL%/js/wow.min.js"></script>
+    <script src="%PUBLIC_URL%/js/animate-scroll.js"></script>
+    <script src="%PUBLIC_URL%/js/jquery.nice-select.min.js"></script>
+    <script src="%PUBLIC_URL%/js/swiper.js"></script>
+    <script src="%PUBLIC_URL%/js/owl.carousel.min.js"></script>
+    <script src="%PUBLIC_URL%/js/imagesloaded.pkgd.min.js"></script>
+    <script src="%PUBLIC_URL%/js/masonry.pkgd.min.js"></script>
+    <script src="%PUBLIC_URL%/js/jquery.appear.js"></script>
+    <script src="%PUBLIC_URL%/js/odometer.min.js"></script>
+    <script src="%PUBLIC_URL%/js/expandcollapse.js"></script>
+    <script src="%PUBLIC_URL%/js/main.js"></script>
+
+
+    <script>
+
+        jQuery(document).ready(function (){
+            Animation();
+        });
+
+        function Animation(){
+            AOS.init({
+                once:true,
+                duration:1000,
+            });
+            if($('.wow').length){
+                var wow = new WOW(
+                {
+                    boxClass:     'wow',
+                    animateClass: 'animated',
+                    offset:       0,
+                    mobile:       true,
+                    live:         true
+                }
+                );
+                wow.init();
+            }
+        }
+
+    </script>
+
+  </body>
+</html>

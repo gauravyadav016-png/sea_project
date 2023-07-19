@@ -1,0 +1,21 @@
+[{
+  "_id": {
+    "$oid": "6401d15c26a19d89dbca6351"
+  },
+  "voter_id": "123456",
+  "constitution_code": "C001",
+  "eligibile_election_type_code": "E002",
+  "delete_status": 0,
+  "created_date": "",
+  "updated_date": ""
+},{
+  "_id": {
+    "$oid": "6401d53e26a19d89dbca6355"
+  },
+  "voter_id": "123457",
+  "constitution_code": "C001",
+  "eligibile_election_type_code": "E002",
+  "delete_status": 0,
+  "created_date": "",
+  "updated_date": ""
+}]

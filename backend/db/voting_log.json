@@ -1,0 +1,11 @@
+[{
+  "_id": {
+    "$oid": "6401d6e826a19d89dbca6361"
+  },
+  "voter_id": "",
+  "voted_datetime": "",
+  "voter_ip": "",
+  "geo_coordinates": "",
+  "voting_status": "fail",
+  "ec_response": "dummy data"
+}]
